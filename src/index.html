@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Relógio Digital Avançado | Mikaeli Valdivino</title>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  </head>
+  <body
+    class="bg-black text-neutral-200 flex flex-col justify-center items-center gap-4 min-h-screen font-['Orbitron'] transition-colors duration-1000"
+  >
+    <!-- Fundo de partículas -->
+    <div id="particles-js" class="absolute inset-0"></div>
+
+    <!-- Relógio -->
+    <div
+      class="clock bg-black bg-opacity-50 p-10 rounded-lg shadow-lg flex justify-center gap-5 flex-wrap transition duration-500 transform active:scale-105 relative z-10"
+    >
+      <span
+        id="hours"
+        class="text-[100px] md:text-[150px] shadow-neon transition duration-300 hover:scale-110 bg-clip-text text-transparent bg-gradient-rainbow animate-gradientShift"
+        >00</span
+      >
+      <span class="text-[100px] md:text-[150px] animate-pulse">:</span>
+      <span
+        id="minutes"
+        class="text-[100px] md:text-[150px] shadow-neon transition duration-300 hover:scale-110 bg-clip-text text-transparent bg-gradient-rainbow animate-gradientShift"
+        >00</span
+      >
+      <span class="text-[100px] md:text-[150px] animate-pulse">:</span>
+      <span
+        id="seconds"
+        class="text-[100px] md:text-[150px] shadow-neon transition duration-300 hover:scale-110 bg-clip-text text-transparent bg-gradient-rainbow animate-gradientShift"
+        >00</span
+      >
+    </div>
+
+    <!-- Créditos -->
+    <h2
+      class="text-center font-bold text-xl opacity-0 animate-fadeIn delay-1000 relative z-10"
+    >
+      Powered by
+      <strong class="text-xl"> Mikaeli Valdivino</strong>
+    </h2>
+  </body>
+  <script src="script.js"></script>
+</html>
