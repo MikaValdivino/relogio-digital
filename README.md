@@ -1,13 +1,13 @@
 # Relógio Digital Avançado
 
-Este projeto é um relógio digital interativo e visualmente atraente, desenvolvido por **Mikaeli Valdivino**, que utiliza HTML, CSS (com Tailwind CSS) e JavaScript. Ele apresenta um fundo dinâmico de partículas e animações para os números do relógio, proporcionando uma experiência moderna e envolvente.
+Este projeto é um relógio digital interativo e visualmente atraente que utiliza HTML, CSS (com Tailwind CSS) e JavaScript. Ele apresenta um fundo dinâmico de partículas e animações para os números do relógio, proporcionando uma experiência moderna e envolvente.
 
 ## Funcionalidades
 
 - **Relógio Digital**: Exibe a hora atual em formato HH:MM:SS, com atualização automática a cada segundo.
 - **Animações**: Efeitos de "flip" nas mudanças de hora, minuto e segundo, além de uma animação de pulso nos dois pontos que separam as unidades de tempo.
 - **Efeitos Visuais**: Fundo com partículas que reagem a interações do usuário (hover e clique).
-- **Som de Tick**: Efeito sonoro que é acionado a cada segundo, melhorando a experiência do usuário.
+- **Som**: Trilha sonora calma que melhora a experiência do usuário.
 
 ## Estrutura do Projeto
 
